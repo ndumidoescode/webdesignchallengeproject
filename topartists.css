@@ -1,0 +1,189 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bricolagegrotesque/v1/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bricolagegrotesque/v1/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }  
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bricolagegrotesque/v1/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bricolagegrotesque/v1/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bricolagegrotesque/v1/3y9K6as8bTXq_nANBjzKo3IeZx8z6up5BeSl9D4dj_x9PpZBMlGIInE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOiCnqEu92Fr1Mu51QrEzAdLw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* UNIVERSAL */
+
+body {
+    font-family: 'Bricolage Grotesque', 'Times New Roman', sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+html {
+    background-color: grey;
+}
+
+/* HEADINGS & PARAGRAPHS */
+
+h1 {
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+p {
+    font-size: smaller;
+    font-weight: 400;
+    line-height: 1px;
+}
+
+/* COLOUR SELECTION */
+
+.colour-selection {
+    border: 2px solid black;
+    padding: 3px 2px;
+    margin: 15px;
+}
+
+.colour-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px 7px;
+    min-height: 100px;
+}
+
+.colour-name, .colour-spec {
+    color: black;
+    font-weight: bold;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greenblock {
+    background-color: rgb(116, 182, 18);
+}
+
+.oliveblock {
+    background-color: rgba(133, 62, 11, 0.616);
+    background-color: hsl(50, 80%, 20%);
+}
+
+.redblock {
+    background-color: red;
+}
+
+.orangeblock {
+    background-color: rgb(240, 72, 11);
+    background-color: hsl(22, 91%, 49%);
+}
+
+.yellowblock {
+    background-color: rgba(255, 217, 0, 0.932);
+}
+.pinkblock {
+    background-color: rgba(245, 9, 166, 0.774);
+}
+
+.purpleblock {
+    background-color: rgba(165, 7, 165, 0.616);
+}
+
+.peachblock {
+    background-color: rgba(226, 172, 124, 0.884);
+}
+
+.brownblock {
+    background-color: #964B00;
+}
+
+.blueblock {
+    background-color: rgb(20, 20, 256);
+}
+
+/* FONT SELECTION */
+
+.font-selection {
+    border: 2px solid black;
+    padding: 3px 2px;
+    margin: 15px;
+}
+
+/* LAYOUT STYLES */
+
+.layout-styles {
+    border: 2px solid black;
+    padding: 3px 2px;
+    margin: 15px;
+}
+
+h3, p {
+    margin-left: 15px;
+}
+
+h3 {
+    padding: 2px 0px 0px 0px;
+}
+
+.roboto, .roboto-example {
+    font-family: 'Roboto', sans-serif;
+}
